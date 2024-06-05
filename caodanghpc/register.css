@@ -1,0 +1,41 @@
+.container {
+    width: 700px;
+    margin: 0 25%;
+}
+
+.title {
+    text-align: center;
+}
+
+.form {
+    height: 350px;
+    display: flex;
+    padding: 36px;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid rgb(14, 226, 14);
+}
+
+.text {
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.message {
+    color: red;
+    margin-left: 4px;
+}
+
+.submit {
+    background-color: rgb(14, 226, 14);
+    border: 1px solid rgb(14, 226, 14);
+    padding: 8px 0;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
